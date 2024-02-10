@@ -1,0 +1,58 @@
+
+:root{
+    --clr-primary : #fcdb00;
+    --clr-sec : #010101;
+    --clr-text : #555555;
+    --clr-text2 : #313841;
+}
+
+/* root is the place where you can declare and init vars and that can be :-moz-user-disabled
+throughout the application */
+
+.heroImg{
+    padding: 75px 0 108px;
+    background-color: var(--clr-primary);
+}
+
+
+.heroImg .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 70px;
+}
+
+.heroImg .navbar-default .navbar-nav>li>a {
+    color: var(--clr-sec);
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.heroImg .navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.inspiration{
+    margin-top: 90px;
+}
+.pri-heading {
+    font-size: 32px;
+    color: var(--clr-sec);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.sec-heading {
+    color: var(--clr-text2);
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+.para {
+    color:var(--clr-text) ;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
